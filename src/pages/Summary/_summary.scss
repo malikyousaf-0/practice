@@ -1,0 +1,21 @@
+.summary {
+  //   background-color: red;
+  .title {
+    // color: white;
+    font-size: 1.4rem;
+    .text {
+      font-size: 0.7rem;
+    }
+    .icon {
+      // border: 2px solid green;
+      background-color: $primary-color;
+      color: $main-color;
+      font-size: 2rem;
+    }
+  }
+}
+.linkValue {
+  background-color: $main-color;
+  border-radius: 1rem;
+  color: white;
+}

@@ -1,0 +1,13 @@
+.navbar {
+  background-color: $secondry-color;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  .nav {
+    text-decoration: none;
+    color: rgb(178, 184, 178);
+  }
+  .active {
+    color: White;
+    font-weight: bold;
+  }
+}

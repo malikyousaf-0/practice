@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary-color: #edf0f6;
+$secondry-color: #1b1a3b;
+$main-color: #503bff;
+@import "./components//Navbar/navbar";
+@import "./pages/Summary/summary";
+@import "./pages/Heading/heading";
+@import "./pages/Lists/list";
+body {
+  // scroll-behavior: smooth
+
+  .App {
+    padding: 0.5rem;
+    height: 470px;
+    width: 530px;
+    background-color: $primary-color;
+
+    overflow: auto;
+  }
+}
